@@ -41,7 +41,10 @@ font-size: 40px;
 .hero span {
 color: #007bff;
 }
-.pic{
-  border-radius: 50%;
-  display:flex;
+.pic {
+  width: 150px;       /* change size as you want */
+  height: 150px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;  /* keeps image from stretching */
 }
+
