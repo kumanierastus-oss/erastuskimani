@@ -41,10 +41,13 @@ font-size: 40px;
 .hero span {
 color: #007bff;
 }
-.pic {
-  width: 150px;       /* change size as you want */
+.profile-pic {
+  width: 150px;
   height: 150px;
-  border-radius: 50%; /* makes it circular */
-  object-fit: cover;  /* keeps image from stretching */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
 
